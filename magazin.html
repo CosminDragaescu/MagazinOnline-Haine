@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magazin — ATELIER</title>
+  <meta name="description" content="Toate produsele Atelier: hanorace, tricouri, pantaloni, cămăși, pulovere și seturi confecționate manual." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=5" />
+</head>
+<body data-page="magazin">
+
+  <section class="page-head">
+    <div class="container">
+      <h1>Magazin</h1>
+      <p>Toate piesele, confecționate manual în loturi mici.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="filters" id="filters"></div>
+    <div class="product-grid" id="shop-grid" style="margin-bottom:120px"></div>
+  </div>
+
+  <section class="newsletter section">
+    <div class="container">
+      <h2 class="serif">Intră în comunitate</h2>
+      <p>Primește acces la lansări noi și oferte exclusive.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Adresa ta de email" required />
+        <button type="submit" aria-label="Abonează-te">→</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/products.js?v=5"></script>
+  <script src="js/auth.js?v=5"></script>
+  <script src="js/layout.js?v=5"></script>
+  <script src="js/main.js?v=5"></script>
+</body>
+</html>
